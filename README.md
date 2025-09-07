@@ -1,97 +1,47 @@
-🎤 Unmute
+README.md
+#  Unmute  
+**Because everyone deserves to be heard.**
 
-Because everyone deserves to be heard.
+Unmute is an **AI-powered communication assistant** designed for autistic and nonverbal individuals. Unlike traditional AAC tools, Unmute adapts dynamically—predicting user intent, providing natural voice synthesis, and learning user-specific expression patterns.
 
-Unmute is an AI-powered communication assistant designed for autistic and nonverbal individuals. Unlike traditional AAC (augmentative and alternative communication) tools, Unmute adapts dynamically to each user — predicting intent, providing natural voice synthesis, and learning how the user expresses themselves over time.
+---
 
-🚀 Features
+##  Features
+- **Adaptive AI Communication** – Uses `gpt-oss` to predict intent and anticipate relevant phrases.
+- **Expressive Speech** – NVIDIA-powered synthesis delivers emotional, natural-sounding voice output.
+- **Personal Growth Engine** – Learns evolving vocabulary and user's communication style over time.
+- **Offline Mode** – Supports applications without stable internet via a local agent.
+- **Open Source** – Transparent, extensible, and invites community involvement.
 
-Adaptive AI Communication → Uses gpt-oss models to predict intent and suggest relevant words/phrases.
+---
 
-Expressive Speech → NVIDIA speech synthesis provides natural, emotional voices (not robotic).
+##  Competition Categories
+Submitted for:
+- **Best Overall** – Innovative, high-impact use of GPT-OSS.
+- **For Humanity** – Empowers marginalized voices.
+- **Most Useful Fine-Tune** (future) – Fine-tuning on autism-specific AAC data.
 
-Personal Growth Engine → Learns evolving vocabulary, preferences, and style.
+---
 
-Offline Mode → A local agent runs without internet access for accessibility anywhere.
+##  Demo Video
+▶ [3-Minute Video Demo (coming soon)](#)
 
-Open Source → Community-driven, extensible, and transparent.
+---
 
-🏆 Competition Categories
+##  Tech Stack
+- `gpt-oss` – Context-aware phrase suggestion.
+- NVIDIA Riva / Speech AI – High-quality voice synthesis.
+- Node.js / React Native – Cross-platform client.
+- `dotenv` – Secure secret management.
 
-This project is submitted for the following categories:
+---
 
-Best Overall – Innovative AI accessibility application.
+##  Installation
 
-For Humanity – Empowers autistic and nonverbal individuals to communicate.
-
-Most Useful Fine-Tune (future work) – Fine-tuning GPT models on AAC datasets for specialized performance.
-
-📽 Demonstration Video
-
-▶️ Link to 3-minute demo video
-
-(coming soon)
-
-🛠 Tech Stack
-
-gpt-oss → Context prediction, adaptive communication suggestions.
-
-NVIDIA Riva / Speech AI → Natural speech synthesis.
-
-Node.js / React (planned) → Cross-platform app + UI.
-
-dotenv → Secure environment variable management.
-
-📦 Installation
-# Clone repo
-git clone https://github.com/creative-mjsapps/unmute.git
+```bash
+git clone https://github.com/Mjs-Apps/unmute.git
 cd unmute
-
-# Install dependencies
 npm install
-
-# Copy environment file
 cp .env.example .env
-# Fill in your API keys in .env
-
-# Run app
+# Add your API keys
 npm start
-
-🔑 Environment Variables
-
-Create a .env file in the root of your project:
-
-NVIDIA_API_KEY=your_api_key_here
-GPT_API_KEY=your_openai_key_here
-
-
-(never commit real keys – .gitignore is set to protect you)
-
-🧪 Example Usage
-npm start
-
-
-Output:
-
-Unmute app starting...
-NVIDIA key loaded: true
-GPT key loaded: true
-
-
-(In the demo app, text input is converted to natural AI-driven voice output)
-
-🔬 gpt-oss Use
-
-Intent Prediction → The gpt-oss model suggests likely phrases given limited user input.
-
-Adaptive Learning → Tracks user history and adapts vocabulary suggestions.
-
-Fine-Tuning (planned) → Specialized training on autism-focused AAC datasets.
-
-🤝 Contributing
-
-Pull requests welcome! Please see CONTRIBUTING.md for guidelines.
-
-📜 License
-
-MIT License (or Apache 2.0 — your choice)
