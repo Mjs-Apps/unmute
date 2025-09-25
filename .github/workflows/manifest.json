@@ -1,0 +1,33 @@
+{
+  "name": "Unmute",
+  "short_name": "Unmute",
+  "description": "Because everyone deserves to be heard \u2014 inclusive AI communication for autistic and nonverbal individuals.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0F1423",
+  "theme_color": "#00C8FF",
+  "icons": [
+    {
+      "src": "/unmute_icon_192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/unmute_icon_256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/unmute_icon_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/unmute_icon_180x180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
