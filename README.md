@@ -45,3 +45,10 @@ npm install
 cp .env.example .env
 # Add your API keys
 npm start
+```
+
+---
+
+##  Agent Operations
+
+- [GPT-OSS Agent Setup](docs/gpt-oss-agent-setup.md)
