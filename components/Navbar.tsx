@@ -1,13 +1,15 @@
 "use client";
+import type { Route } from "next";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const links = [
+const links: { href: Route; label: string }[] = [
   { href: "/", label: "Home" },
   { href: "/how-it-works", label: "How it works" },
   { href: "/accessibility", label: "Accessibility" },
   { href: "/about", label: "About" },
   { href: "/donate", label: "Donate" },
+  { href: "/contributing", label: "Contribute" }
 ];
 
 export default function Navbar() {
@@ -20,7 +22,7 @@ export default function Navbar() {
           <span className="font-bold tracking-tight">Unmute</span>
         </Link>
         <ul className="flex gap-4 text-sm">
-          {links.map(l => (
+          {links.map((l) => (
             <li key={l.href}>
               <Link
                 href={l.href}
